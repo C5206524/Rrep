@@ -19,7 +19,7 @@ public class MainFrame extends JFrame {
     private JTextArea textOutput = new JTextArea("Output");
 
     public MainFrame() throws HeadlessException {
-        setSize(800, 600);
+        setSize(810, 600);
         this.setTitle("English parser");
         JPanel wrap = new JPanel();
         wrap.setLayout(new BoxLayout(wrap, BoxLayout.Y_AXIS));
